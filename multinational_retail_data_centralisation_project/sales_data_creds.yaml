@@ -1,0 +1,7 @@
+## database credentials
+
+HOST: localhost
+PASSWORD: @Lala4242!!
+USER: postgres
+DATABASE: sales_data
+PORT: 5432
