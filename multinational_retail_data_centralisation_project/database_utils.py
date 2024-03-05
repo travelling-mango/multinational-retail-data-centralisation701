@@ -1,35 +1,52 @@
-# database connector class
-
-## read database credentials
-## initialise database engine
-## list database tables  
-## upload dataframe to database
-import yaml
-from sqlalchemy import create_engine
-
+from sqlalchemy import create_engine, inspect
 
 class DatabaseConnector:
-    def __init__(self, creds_file):
-        self.creds = self.read_sales_data_creds(creds_file)
+    """
+    A class for connecting to a database and performing operations.
+    """
+    def __init__(self, uri):
+        """
+        Initialize the DatabaseConnector object.
 
-    def read_sales_data_creds(self, creds_file):
-        with open(creds_file, 'r') as file:
-            creds = yaml.safe_load(file)
-        return creds
+        Args:
+        - uri (str): The URI for connecting to the database.
+
+        Returns:
+        - None
+        """
+        self.uri = uri
 
     def init_db_engine(self):
-        db_uri = f"postgresql://{self.creds['USER']}:{self.creds['PASSWORD']}@{self.creds['HOST']}:{self.creds['PORT']}/{self.creds['DATABASE']}"
-        engine = create_engine(db_uri)
+        """
+        Initialize the database engine.
+
+        Returns:
+        - engine: The database engine object.
+        """
+        engine = create_engine(self.uri)
         return engine
 
     def list_db_tables(self):
-        engine = self.init_db_engine()
-        return engine.table_names()
+        """
+        List all tables in the database.
 
-    def upload_to_db(self, df, table_name):
+        Returns:
+        - list: A list of table names in the database.
+        """
         engine = self.init_db_engine()
+        inspector = inspect(engine)
+        return inspector.get_table_names()
+
+    def upload_to_db(self, df, table_name, engine):
+        """
+        Upload DataFrame to a database table.
+
+        Args:
+        - df (pd.DataFrame): The DataFrame to upload.
+        - table_name (str): The name of the database table.
+        - engine: The database engine object.
+
+        Returns:
+        - None
+        """
         df.to_sql(table_name, engine, if_exists='replace', index=False)
-
-
-
-
