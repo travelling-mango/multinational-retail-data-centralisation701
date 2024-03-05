@@ -29,7 +29,7 @@ The project solves the issues listed above by producing a system that stores the
 ##### 2. Install the required Python packages
 
    ```
-   pip install -r requirements.txt
+   pip install -r python_requirements.txt
    ```
 
 #### :bulb: *Top tip*
@@ -77,7 +77,7 @@ The `querying_data.sql` file outlines how to query the database in SQL in order 
 
 - `README.md` *Project documentation*
 - `LICENSE` *MIT project license*
-- `requirements.txt` *List of required Python packages*
+- `python_requirements.txt` *List of required Python packages*
 
 ```python
 1_extract_and_clean_data/
