@@ -16,7 +16,7 @@ A multinational company sells various goods across the globe. Currently, their s
 
 #### *The solution*
 
-The project solves the issues listed above by producing a system that stores the current company data in a database so that it can be accessed from one centralised location and acts as a single source of truth for sales data. The creation of a star-based schema and subsequent querying of the database in SQL provide up-to-date metrics for the company.
+The project solves the issues listed above by producing a system that stores the current company data in a database so that it can be accessed from one centralised location and acts as a single source of truth for sales data. The creation of a star-based schema and subsequent querying of the database in SQL provide up-to-date sales metrics for the company.
 
 ## Installation
 #### :woman_technologist: *Git Repository & Python Packages*
