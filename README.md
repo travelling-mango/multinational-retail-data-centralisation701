@@ -33,13 +33,13 @@ The creation of a star-based schema and subsequent querying of the database in S
    pip install -r requirements.txt
    ```
 ##### 3. Install the required SQL packages
+  ```
+  Consult the download instructions on the [pgadmin4 website](https://www.pgadmin.org/download/)
+  ```
 
-- Consult the download instructions on the [pgadmin4 website](https://www.pgadmin.org/download/)
+#### :bulb: *Top tip*
 
-
-#### *Top tip*
-
-:bulb: Set up a [virtual environment](https://docs.python.org/3/library/venv.html) to complete the project. This will control software dependencies in Python and ensure that your code is reproducible.
+- Set up a [virtual environment](https://docs.python.org/3/library/venv.html) to complete the project. This will control software dependencies in Python and ensure that your code is reproducible.
 
 ## Usage
 
