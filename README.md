@@ -16,11 +16,25 @@ A multinational company sells various goods across the globe. Currently, their s
 
 *The solution*
 
-The project solves these issues by producing a system that stores the current company data in a database so that it can be accessed from one centralised location and acts as a single source of truth for sales data.
+The project solves the issues listed above by producing a system that stores the current company data in a database so that it can be accessed from one centralised location and acts as a single source of truth for sales data.
 The creation of a star-based schema and subsequent querying of the database in SQL provide up-to-date metrics for the business.
 
 ## Installation
-[Include installation instructions here]
+*Installation instructions*
+
+1. Clone the repository
+   ```
+   git clone https://github.com/travelling-mango/multinational-retail-data-centralisation701.git
+   ```
+2. Install the required Python packages
+   ```
+   pip install -r requirements.txt
+   ```
+3. Install the required SQL packages
+   ```
+   Consult the download instructions of the pgadmin4 website: https://www.pgadmin.org/download/
+   ``
+
 
 ## Usage
 [Include usage instructions here]
