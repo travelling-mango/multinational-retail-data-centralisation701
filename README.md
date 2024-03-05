@@ -31,9 +31,9 @@ The creation of a star-based schema and subsequent querying of the database in S
    pip install -r requirements.txt
    ```
 3. Install the required SQL packages
-   ```
+
    Consult the download instructions of the pgadmin4 website: https://www.pgadmin.org/download/
-   ``
+   
 
 
 ## Usage
