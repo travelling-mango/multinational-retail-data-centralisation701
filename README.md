@@ -16,8 +16,7 @@ A multinational company sells various goods across the globe. Currently, their s
 
 #### *The solution*
 
-The project solves the issues listed above by producing a system that stores the current company data in a database so that it can be accessed from one centralised location and acts as a single source of truth for sales data.
-The creation of a star-based schema and subsequent querying of the database in SQL provide up-to-date metrics for the business.
+The project solves the issues listed above by producing a system that stores the current company data in a database so that it can be accessed from one centralised location and acts as a single source of truth for sales data. The creation of a star-based schema and subsequent querying of the database in SQL provide up-to-date metrics for the company.
 
 ## Installation
 #### :woman_technologist: *Git Repository & Python Packages*
@@ -33,14 +32,9 @@ The creation of a star-based schema and subsequent querying of the database in S
    pip install -r requirements.txt
    ```
 
-#### :card_index_dividers: *SQL packages*
-
-Consult the download instructions on the [pgadmin4 website](https://www.pgadmin.org/download/)
-
-
 #### :bulb: *Top tip*
 
-Set up a [virtual environment](https://docs.python.org/3/library/venv.html) to complete the project. This will control software dependencies in Python and ensure that your code is reproducible
+Set up a [virtual environment](https://docs.python.org/3/library/venv.html) to complete the project. This will control software dependencies in Python and ensure that your code is reproducible.
 
 ## Usage
 #### :broom: *Extract, Clean, & Upload Data*
@@ -58,7 +52,23 @@ After the data is extracted, cleaned, and uploaded to the `sales_data` database 
 
 To do this, refer to the `2_database_schema` folder.
 
-The `1_orders_table.sql`, `2_dim_users.sql`, `3_dim_store_details.sql`, `4_dim_products.sql`, `5_dim_date_times.sql`, `6_dim_card_details.sql`, `a_primary_keys.sql`, b_foreign_keys.sql` files outline the necessary steps for creating the database schema.
+The `1_orders_table.sql`, `2_dim_users.sql`, `3_dim_store_details.sql`, `4_dim_products.sql`, `5_dim_date_times.sql`, `6_dim_card_details.sql`, `a_primary_keys.sql`, and `b_foreign_keys.sql` files outline the necessary steps for creating the database schema.
+
+#### 3: *Querying the Data*
+
+Now that all of the data is organised into a neat relational database, it is time to use SQL to query it in order to find up-to-date metrics of the company's sales data.
+
+The key questions that are to be answered are:
+1. *How many stores does the business have and in which countries?*
+2. *Which locations currently have the most stores?*
+3. *Which months produced the largest amount of sales?*
+4. *How many sales are coming from online vs offline?*
+5. *What percentage of sales come through each type of store?*
+6. *Which month in each year produced the highest cost of sales?*
+7. *What is the company's staff headcount?*
+8. *Which German store type is selling the most?*
+9. *How quickly is the company making sales?*
+
 
 
 ## File Structure
