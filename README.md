@@ -32,11 +32,11 @@ The creation of a star-based schema and subsequent querying of the database in S
    ```
 3. Install the required SQL packages
 
-   Consult the download instructions on the [pgadmin4 website](https://www.pgadmin.org/download/)
+- Consult the download instructions on the [pgadmin4 website](https://www.pgadmin.org/download/)
 
 *Top tip*
 
-- Set up a [virtual environment](https://docs.python.org/3/library/venv.html) to complete the project. This will control software dependencies in Python and ensure that your code in reproducible.
+- Set up a [virtual environment](https://docs.python.org/3/library/venv.html) to complete the project. This will control software dependencies in Python and ensure that your code is reproducible.
 
    
 
