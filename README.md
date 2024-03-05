@@ -13,6 +13,7 @@
 
 A multinational company sells various goods across the globe. Currently, their sales data is spread across many different data sources - making it difficult to access and analyse. In an effort to become more data-driven, the company would like to make its sales data accessible from one centralised location.
 
+
 *The solution*
 
 The project solves these issues by producing a system that stores the current company data in a database so that it can be accessed from one centralised location and acts as a single source of truth for sales data.
