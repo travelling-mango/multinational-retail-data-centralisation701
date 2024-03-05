@@ -23,16 +23,19 @@ The creation of a star-based schema and subsequent querying of the database in S
 *Installation instructions*
 
 1. Clone the repository
+
    ```
    git clone https://github.com/travelling-mango/multinational-retail-data-centralisation701.git
    ```
 2. Install the required Python packages
+
    ```
    pip install -r requirements.txt
    ```
 3. Install the required SQL packages
 
 - Consult the download instructions on the [pgadmin4 website](https://www.pgadmin.org/download/)
+
 
 *Top tip*
 
