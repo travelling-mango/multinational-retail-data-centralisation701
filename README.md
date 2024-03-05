@@ -108,7 +108,10 @@ The `querying_data.sql` file outlines how to query the database in SQL in order 
 
 ## Future Improvements & Lessons learnt
 
-In the future, I would like to utilise `.ipynb' files to allow for more cell-level code execution and documentation. Looking back, I think that this would have made my project much more structured as a separate `.ipynb' file could be created for each data source. This would keep the code separate - in line with object-oriented programming - and make it easier to spot mistakes. Moreover, it would allow for more data diagnostics to be implemented and hence, better data cleaning before upload to the database. This is something I had to address later in SQL and I think that cleaning the data more thoroughly in Python first would have saved time and produced more high-quality data.
+:microscope: In the future, I would like to utilise `.ipynb` files to allow for more cell-level code execution and documentation. Looking back, I think that this would have made my project much more structured as a separate `.ipynb` file could be created for each data source. This would keep the code separate - in line with object-oriented programming - and make it easier to spot mistakes.
 
+:put_litter_in_its_place: Moreover, it would allow for more data diagnostics to be implemented and hence, better data cleaning before upload to the database. This is something I had to address later in SQL and I think that cleaning the data more thoroughly in Python first would have saved time and produced more high-quality data.
+
+:blue_book: I would also like to explore ways of running my SQL queries in VSCode - instead of pgadmin4 - for ease of execution and documentation along with the rest of my code.
 
 ## License
