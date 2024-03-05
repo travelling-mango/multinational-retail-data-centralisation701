@@ -39,7 +39,7 @@ Set up a [virtual environment](https://docs.python.org/3/library/venv.html) to c
 ## Usage
 #### :broom: 1 - *Extract, Clean, & Upload Data*
 
-First, you will need to extract and clean the data from six different sources: two separate AWS RDS databases; an AWS S3 bucket, one in a PDF format and one in a CSV format; an API; and a JSON file. Once all of the data is extracted and cleaned, you will need to upload it to an empty database in pgadmin4 called `sales_data`.
+First, you will need to extract and clean the data from six different sources: two separate AWS RDS databases; two AWS S3 buckets, one in a PDF format and one in a CSV format; an API; and a JSON file. Once all of the data is extracted and cleaned, you will need to upload it to an empty database in pgadmin4 called `sales_data`.
 
 To do this, refer to the `1_extract_and_clean_data` folder.
 
