@@ -20,7 +20,7 @@ The project solves the issues listed above by producing a system that stores the
 The creation of a star-based schema and subsequent querying of the database in SQL provide up-to-date metrics for the business.
 
 ## Installation
-#### :woman_technologist: *Installation instructions*
+#### :woman_technologist: *Git Repository & Python Packages*
 
 ##### 1. Clone the repository
 
@@ -32,9 +32,10 @@ The creation of a star-based schema and subsequent querying of the database in S
    ```
    pip install -r requirements.txt
    ```
-##### 3. Install the required SQL packages
 
-   Consult the download instructions on the [pgadmin4 website](https://www.pgadmin.org/download/)
+#### :card_index_dividers: *SQL packages*
+
+Consult the download instructions on the [pgadmin4 website](https://www.pgadmin.org/download/)
 
 
 #### :bulb: *Top tip*
