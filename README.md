@@ -5,7 +5,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [File Structure](#file-structure)
-- [Future Improvements / Outlook](#future-improvements--outlook)
+- [Future Improvements & Lessons learnt](#future-improvements-&-lessonslearnt)
 - [License](#license)
 
 ## Project Overview
@@ -39,19 +39,12 @@ The creation of a star-based schema and subsequent querying of the database in S
 
 #### *Top tip*
 
-- Set up a [virtual environment](https://docs.python.org/3/library/venv.html) to complete the project. This will control software dependencies in Python and ensure that your code is reproducible.
-
-   
-
+:bulb: Set up a [virtual environment](https://docs.python.org/3/library/venv.html) to complete the project. This will control software dependencies in Python and ensure that your code is reproducible.
 
 ## Usage
-[Include usage instructions here]
 
 ## File Structure
-[Include file structure of the project here]
 
-## Future Improvements / Outlook
-[Include future improvements or outlook for the project here]
+## Future Improvements & Lessons learnt
 
 ## License
-[Include license information here]
