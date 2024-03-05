@@ -76,7 +76,7 @@ The `querying_data.sql` file outlines how to query the database in SQL in order 
 ## File Structure
 
 - `README.md` *Project documentation*
-- `LICENSE.txt` *MIT project license*
+- `LICENSE` *MIT project license*
 - `requirements.txt` *List of required Python packages*
 
 ```python
@@ -115,3 +115,5 @@ The `querying_data.sql` file outlines how to query the database in SQL in order 
 :blue_book: I would also like to explore ways of running my SQL queries in VSCode - instead of pgadmin4 - for ease of execution and documentation along with the rest of my code.
 
 ## License
+
+This project is licensed under the MIT License.
