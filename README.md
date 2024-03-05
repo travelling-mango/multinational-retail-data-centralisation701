@@ -81,28 +81,28 @@ The `querying_data.sql` file outlines how to query the database in SQL in order 
 ```python
 1_extract_and_clean_data/
 │
-├── data_extraction.py # Contains the DataExtractor class and methods for extracting data from different data sources
-├── data_cleaning.py # Contains the DataCleaning class and methods for cleaning data extracted from various sources
-├── database_utils.py # Contains the DatabaseConnector class and methods for connecting to databases and performing operations such as uploading data
-└── main.py # Main script for orchestrating the DataExtractor, DataCleaning, and DatabaseConnector classes
+├── data_extraction.py # Contains the DataExtractor class and methods for extracting data from different data sources.
+├── data_cleaning.py # Contains the DataCleaning class and methods for cleaning data extracted from various sources.
+├── database_utils.py # Contains the DatabaseConnector class and methods for connecting to databases and performing operations such as uploading data.
+└── main.py # Main script for orchestrating the DataExtractor, DataCleaning, and DatabaseConnector classes.
 
 ```
 ```python
 2_database_schema/
 │
-├── 1_orders_table.sql
-├── 2_dim_users.sql
-├── 3_dim_store_details.sql
-├── 4_dim_products.sql
-├── 5_dim_date_times.sql
-├── 6_dim_card_details.sql
-├── a_primary_keys.sql
-└── b_foreign_keys.sql
+├── 1_orders_table.sql # Modified data types of columns in the orders_table.
+├── 2_dim_users.sql # Modified data types of columns in the dim_users table.
+├── 3_dim_store_details.sql # Merged lat column into latitude column, modified data types of columns in the dim_store_details table, and more.
+├── 4_dim_products.sql # Added a new column weight_class based on the weight_kg column, modified data types of columns in the dim_products table, and more.
+├── 5_dim_date_times.sql # Modified data types of columns in the dim_date_times table.
+├── 6_dim_card_details.sql # Modified data types of columns in the dim_card_details table and more.
+├── a_primary_keys.sql # Created primary keys for all six tables.
+└── b_foreign_keys.sql # Created foreign keys for relevant columns.
 ```
 ```python
 3_queries/
 │
-└── querying_data.sql
+└── querying_data.sql # Nine SQL queries extracting various insights from the database.
 ```
 
 ## Future Improvements & Lessons learnt
